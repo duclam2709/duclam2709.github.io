@@ -1,0 +1,416 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: none;
+}
+.section1{
+	background-image: url(../images/hinhsua.jpg);
+	background-attachment:fixed;
+	background-size: cover;
+	height: 130vh;
+	padding: 30px 30px;
+}
+    .nav img{
+	float: left;
+	width: 10%;	
+}
+    .nav .nav1{
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 10px;
+}
+    .nav .nav1 li{
+	display: inline;
+	padding: 0 35px;
+	text-shadow: 0 0 5px #B5FFD9;
+	color: aliceblue;
+}
+.banner1 h1{
+	color: cornsilk;
+	text-shadow: 0 0 20px #AE00FB;
+}
+.banner1 p{
+	color: wheat;
+	text-shadow: 0 0 15px #AE00FB;
+}
+    .nav .hearder{
+	color: white;
+	font-weight: 400;
+	text-align: center;
+}
+    .nav .nav1 .active{
+	border-bottom: 2px solid;
+	border-color: white;
+}
+    .nav .nav1 li:hover:not(.active){
+	border-bottom: 2px solid;
+	border-color: white;
+}
+    .banner1{
+	color: black;
+	font-size: 250%;
+	text-align: center;
+	padding-top: 20%;
+}
+    .banner1 .cta1{
+	padding: 10px 30px;
+	border: none;
+	background-color: red;
+	color: white;
+}
+    .clearfix{ clear: both }
+
+.section2{
+	margin: 0px auto;
+    background-image: url(../images/hinhnen.jfif);
+	padding: 10% 15%;
+    height: 400px;
+	width: 1519px;
+	box-sizing: border-box;
+}
+.khung5{
+}
+     .section2 p{
+	width: 90%;
+	font-size: 150%;
+}
+    .hinh{
+	width: auto;
+	height: 250px;
+}
+    .section2 .anhnoidung1{
+	width: 45%;
+	float: left
+}
+.hinhdd{
+		margin: 0 auto;
+}
+    .section2 .noidung1{
+	color: white;
+	width: 45%;
+	float: right;
+}
+.section2  h2{
+	color: #FFDD00;
+	text-shadow: 0 0 8px #AE00FB;
+}
+.section2 h1{
+	font-size: 350%;
+	color: white;
+	text-shadow: 0 0 8px #AE00FB;
+	
+}
+
+.section3 .border2{
+    background-color: black;
+    color: white;
+    width: 1600px;
+    height: 400px;
+    padding: 10px;
+	margin: 0 auto;
+	display: flex;
+	background-image: url(../images/hinhnen.jfif);
+}
+.phihanhgia {
+	height: 400px;
+	width:  300px;
+	float: left;
+}
+.section3{
+	display: flex;
+	padding: 0 0;
+	margin: 0 0;
+}
+.section3 .chu {
+	text-align: center;
+	margin: auto auto;
+	font-size: 70px;
+	color: white;
+	padding: 10px 0 ;
+    text-shadow: 0 0 50px #AE00FB		 
+}
+.tenskill{
+	padding: 5px;
+	background-image: url(../images/hinhsua.jpg);
+	background-attachment: fixed;
+	height: 500px;
+}
+.border1 h2{
+	text-align: center;
+	padding-top: 10px;
+}
+.tenskill .icon1{
+	height: 90px;
+}
+.ps{
+	width: 80%;
+	margin: 10px auto;
+}
+.ps h2{
+	text-align: center
+}
+.chu1{
+	margin: 0 auto;
+	text-align: center;
+	color: yellow;
+}
+.id{
+	width: 80%;
+	margin: 10px auto;
+	padding: 10px 0;
+}
+.lr{
+	width: 80%;
+	margin: 0px auto;
+		
+}
+.border1 {
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    width: 900px;
+    height: 130px;
+    padding: 10px;
+	margin: 0 auto;
+	display: flex;
+	box-shadow:  7px 3px 3px 3px #AE00FB;
+}
+.portdfodio{
+    background-image: url(../images/hinhnen.jfif);
+    color: white;
+    width: 1600px;
+    height: 400px;
+    padding: 0;
+	margin: 10px auto;
+	display: flex;
+}
+.khung1{
+	margin: auto auto;
+}
+.khung1 .chu2{
+	text-align: center;
+	margin: auto auto;
+	font-size: 70px;
+	color: white;
+	padding: 10px 0 ;
+    text-shadow: 0 0 10px #AE00FB;	
+}
+#polio{
+	display: flex;
+	background-image: url(../images/hinhsua.jpg);
+	background-attachment: fixed;
+}
+.khunghinh {
+	border-radius: 20px;
+	background-size: cover;
+	background-color: black;
+    color: black;
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+	margin: 10px auto;
+	box-shadow: 7px 3px 3px 3px #AE00FB;
+}
+.hinhpt{
+	width: 50%;
+}
+.khunghinh1{
+	border-radius: 20px;
+    background-color:black;
+	background-size: cover;
+    color: white;
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+	margin: 10px auto;
+	box-shadow:  7px 3px 3px 3px #AE00FB;
+}
+.khunghinh2{
+	border-radius: 20px;
+    background-color: black;
+	background-size: cover;
+    color: white;
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+	margin: 10px auto;
+	box-shadow:  7px 3px 3px 3px #AE00FB;
+}
+.section4 .border3{
+    background-color: black;
+    color: white;
+    width: 1600px;
+    height: 400px;
+    padding: 10px;
+	margin: 0 auto;
+	display: flex;
+	background-image: url(../images/hinhnen.jfif);
+}
+    .section4{
+	display: flex;
+		background-image: url(../images/hinhnen.jfif);
+}
+    .section4 .chu {
+	text-align: center;
+	margin: auto auto;
+	font-size: 70px;
+	color: white;
+	padding: 10px 0 ;
+    text-shadow: 0 0 50px #AE00FB		 
+}
+.khung2{
+	display: flex;
+	background-image: url(../images/hinhsua.jpg);
+	background-attachment: fixed;
+}
+.khung2 h3{
+	text-align: center;
+	font-size: 150%
+}
+.khung2 .nam1{
+	text-shadow: 0 0 10px #AE00FB;
+	border-radius: 20px;
+	background-size: cover;
+	background-color: black;
+    color: white;
+    width: 250px;
+    height: 150px;
+    padding: 20px;
+	margin: 10px auto;
+	display: flex;
+	box-shadow: 7px 3px 3px 3px #AE00FB;
+}
+.khung2 .nam2{
+	text-shadow: 0 0 10px #AE00FB;
+	border-radius: 20px;
+    background-color: black;
+	background-size: cover;
+    color: white;
+    width: 250px;
+    height: 150px;
+    padding: 20px;
+	margin: 10px auto;
+	display: flex;
+	box-shadow: 7px 3px 3px 3px #AE00FB;
+}
+.khung2 .nam3{
+	text-shadow: 0 0 10px #AE00FB;
+	border-radius: 20px;
+    background-color: black;
+	background-size: cover;
+    color: white;
+    width: 250px;
+    height: 150px;
+    padding: 20px;
+	margin: 10px auto;
+	display: flex;
+	box-shadow: 7px 3px 3px 3px #AE00FB;
+}
+.section5 .border4{
+    width: 1600px;
+    height: 400px;
+    padding: 10px;
+	margin: 0 auto;
+	display: flex;
+	background-image: url(../images/hinhnen.jfif);
+}
+.section5{
+	display: flex;
+	padding: 0 0;
+	margin: 0 0;	
+}
+.section5 .chu{
+	text-align: center;
+	margin: auto auto;
+	font-size: 70px;
+	color: white;
+	padding: 10px 0 ;
+    text-shadow: 0 0 50px #AE00FB		 
+}
+.khung3{
+	padding: 20px 0px;
+	background-image: url(../images/hinhsua.jpg);
+	background-attachment: fixed;
+}
+.khung3 .thuctap{
+	margin: 10px auto;
+	background-color: black;
+	height: 180px;
+	width: 1100px;
+	border-radius: 20px;
+	box-shadow: 7px 3px 3px 3px #AE00FB;	
+}
+.khung3 .chinhthuc {
+	margin: 25px auto;
+	background-color: black;
+	height: 180px;
+	width: 1100px;
+	border-radius: 20px;
+	box-shadow:7px 3px 3px 3px #AE00FB;
+}
+.khung3 h1{
+	text-align: center;
+	color: wheat;
+	text-shadow: 0 0 50px #AE00FB;
+}
+.khung3 h2{
+	text-align:center;
+	padding: 5px;
+	color: white;
+	text-shadow: 0 0 50px #AE00FB;
+}
+.contact{
+	background-image: url(../images/hinhsua.jpg);
+	background-attachment: fixed;
+	height: 400px;
+}
+.contact .khungcontact{
+	color: white;
+	font-size: 150%;
+}
+.khung4{
+	margin: 0 auto;
+	padding-top: 100px ;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #58257b;
+  border-radius: 4px;
+}
+.khungcontact{
+	margin: 0 30%;
+}
+.iconbrand{
+	display: flex;
+	font-size: 70%;
+	text-align: center;
+	color: white;
+	padding: 10px 450px;
+}
+.iconbrand a:hover{
+	font-size: 200%
+}
+.iconbrand .fb{
+    color: white;
+    padding: 20px;
+	margin: 10px auto;
+}
+.iconbrand .gg{
+	color: white;
+    padding: 20px;
+	margin: 10px auto;
+}
+.iconbrand .ins{
+	color: white;
+    padding: 20px;
+	margin: 10px auto;
+}
+
